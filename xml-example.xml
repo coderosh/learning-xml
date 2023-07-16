@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE college [
+    <!ELEMENT college (class1, class2)>
+    <!ELEMENT class1 (name, roll)>
+    <!ELEMENT class2 (name, roll)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT roll (#PCDATA)>
+]>
+
+<college>
+    <class1>
+        <name>John Doe</name>
+        <roll>0</roll>
+    </class1>
+    <class2>
+        <name>Jane Doe</name>
+        <roll>1</roll>
+    </class2>
+</college>
+
+<!-- 
+                college
+        class1         class2
+         - name          - name
+         - roll          - roll
+-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+    <!ELEMENT note (#PCDATA|to|from|header|message)*>
+
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT message (#PCDATA)>
+]>
+
+<note>
+    <to>Hello</to>
+    
+    <from>Nice</from> Supports text only also <header>Header</header>
+
+    <message>Nice</message>
+</note>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<col:college xmlns:col="h">
+    <col:class1>
+        <col:name>John Doe</col:name>
+        <col:roll>0</col:roll>
+    </col:class1>
+
+    <col:class2>
+        <col:name>Jane Doe</col:name>
+        <col:roll>1</col:roll>
+    </col:class2>
+</col:college>
+
+<!-- 
+                college
+        class1         class2
+         - name          - name
+         - roll          - roll
+-->

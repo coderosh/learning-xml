@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+    <!ELEMENT root (parent1, parent2, parent3, parent4, parent5)>
+
+    <!ELEMENT parent1 (child)>      <!-- one only -->
+    <!ELEMENT parent2 (child+)>     <!-- one or more-->
+    <!ELEMENT parent3 (child*)>     <!-- zero or more -->
+    <!ELEMENT parent4 (roll|name)>  <!-- roll or name -->
+    <!ELEMENT parent5 (roll|name)>
+
+    <!ELEMENT child (#PCDATA)>
+    <!ELEMENT roll (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+]>
+
+<root>
+    <parent1>
+        <child>Hello Worls</child>
+    </parent1>
+
+    <parent2>
+        <child>Hello</child>
+        <child>Hello</child>
+    </parent2>
+
+    <parent3></parent3>
+
+    <parent4>
+        <roll>23</roll>
+    </parent4>
+
+    <parent5>
+        <name>Roshan</name>
+    </parent5>
+
+</root>

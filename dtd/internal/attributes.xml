@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+    <!ELEMENT root (name)>
+    <!ELEMENT name (#PCDATA)>
+    <!ATTLIST name age CDATA #REQUIRED>
+    <!ATTLIST name class CDATA "0">
+    <!ATTLIST name ishuman CDATA #FIXED "true">
+]>
+
+<root>
+    <name age="100" class="20" ishuman="true">Roshan Acharya</name>
+</root>

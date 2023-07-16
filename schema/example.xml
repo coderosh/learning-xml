@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<college xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="example.xsd">
+    <class1>
+        <name>John Doe</name>
+        <roll>0</roll>
+    </class1>
+    <class2>
+        <name>Jane Doe</name>
+        <roll>1</roll>
+    </class2>
+</college>

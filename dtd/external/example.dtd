@@ -1,0 +1,5 @@
+<!ELEMENT college (class1,class2)>
+<!ELEMENT class1 (name,roll)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT class2 (name,roll)>
